@@ -9,40 +9,40 @@ import PythonCertificate from"./Certificate/PythonCertificate.jpeg"
 
 const certificates = [
   {
-    title: "Certificate Title 2",
-    description: "Brief description of the certificate. You can also add a link to view the certificate.",
+    title: "Dooper",
+    description: "completed an internship at Dooper as a Frontend Developer, contributing to the development of user interfaces and enhancing web applications.",
     imageUrl: DooperCertificate, // Replace with actual image URL
   },
   {
-    title: "Certificate Title 2",
-    description: "Brief description of the certificate. You can also add a link to view the certificate.",
+    title: "MongoDb",
+    description: " successfully completed an introductory course in MongoDB, gaining foundational knowledge in database design, querying, and data management with MongoDB.",
     imageUrl: MongoDbCertificate, // Replace with actual image URL
   },
     {
-        title: "Certificate Title 1",
-        description: "Brief description of the certificate. You can also add a link to view the certificate.",
+        title: "DataAnalytics",
+        description: "successfully completed a Data Analytics program, demonstrating expertise in analyzing data, generating insights, and utilizing analytical tools for decision-making.",
         imageUrl: DataAnalyticsCertificate, // Replace with actual image URL
         
       },
       
       {
-        title: "Certificate Title 2",
-        description: "Brief description of the certificate. You can also add a link to view the certificate.",
+        title: "Html",
+        description: "successfully completed the HTML . This certification highlights expertise in HTML5 standards and best practices.",
         imageUrl: HtmlCertificate, // Replace with actual image URL
       },
       {
-        title: "Certificate Title 3",
-        description: "Brief description of the certificate. You can also add a link to view the certificate.",
+        title: "DSA with JAVA",
+        description: "successfully completed a certification in Data Structures and Algorithms with Java, demonstrating proficiency in solving complex problems and optimizing code performance.",
         imageUrl: DsaCertificate, // Replace with actual image URL
       },
       {
-        title: "Certificate Title 4",
-        description: "Brief description of the certificate. You can also add a link to view the certificate.",
+        title: "Cpp",
+        description: "successfully completed a C++ certification, demonstrating proficiency in object-oriented programming and advanced C++ techniques.",
         imageUrl: CppCertificate, // Replace with actual image URL
       },
       {
-        title: "Certificate Title 5",
-        description: "Brief description of the certificate. You can also add a link to view the certificate.",
+        title: "Python",
+        description: "successfully completed an internship program where they acquired practical skills in Python programming, including developing and debugging Python applications.",
         imageUrl: PythonCertificate, // Replace with actual image URL
       },
       // Add more certificates as needed

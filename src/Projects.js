@@ -1,11 +1,37 @@
 
 import React from 'react';
 
+import Joker from "./Projects/Joker.png"
+import Lottery from"./Projects/Lottery.png"
+import Portfolio from"./Projects/Portfolio.png"
+import ToDOList from"./Projects/ToDOList.png"
+import Weather from"./Projects/Weather.png"
+
 const projects = [
     {
         title: "Project Title 1",
         description: "Brief description of your project. You can also add a link to the project.",
-        imageUrl: "https://via.placeholder.com/400x300", // Replace with actual image URL
+        imageUrl: Weather, // Replace with actual image URL
+      },
+      {
+        title: "Project Title 2",
+        description: "Brief description of your project. You can also add a link to the project.",
+        imageUrl: ToDOList , // Replace with actual image URL
+      },
+      {
+        title: "Project Title 2",
+        description: "Brief description of your project. You can also add a link to the project.",
+        imageUrl: Portfolio , // Replace with actual image URL
+      },
+      {
+        title: "Project Title 2",
+        description: "Brief description of your project. You can also add a link to the project.",
+        imageUrl: Lottery, // Replace with actual image URL
+      },
+      {
+        title: "Project Title 2",
+        description: "Brief description of your project. You can also add a link to the project.",
+        imageUrl: Joker, // Replace with actual image URL
       },
       {
         title: "Project Title 2",

@@ -46,6 +46,7 @@ import ContactMe from './ContactMe';
 import Footer from './Footer';
 import Introduction from './Introduction';
 import AboutMe from './AboutMe';
+import SkillRoadmap from './SkillRoadmap';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
       <main className="pt-20">
         <Introduction />
         <AboutMe />
+        
         <Skills />
         <Experience />
         <Projects />
