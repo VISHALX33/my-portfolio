@@ -75,11 +75,11 @@
 import React, { useState } from 'react';
 import CppCertificate from "./Certificate/CppCertificate.jpeg";
 import DataAnalyticsCertificate from "./Certificate/DataAnalyticsCertificate.png";
-import DooperCertificate from "./Certificate/DooperCertificate.jpeg";
+import DooperCertificate from "./Certificate/DooperCertificat.png";
 import DsaCertificate from "./Certificate/DsaCertificate.jpeg";
 import HtmlCertificate from "./Certificate/HtmlCertificate.png";
 import MongoDbCertificate from "./Certificate/MongoDbCertificate.png";
-import PythonCertificate from "./Certificate/PythonCertificate.jpeg";
+import PythonCertificate from "./Certificate/PythonCertificate.png";
 
 const certificates = [
   {

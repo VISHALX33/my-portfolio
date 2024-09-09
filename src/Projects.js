@@ -1,67 +1,4 @@
 
-// import React from 'react';
-
-// import Joker from "./Projects/Joker.png"
-// import Lottery from"./Projects/Lottery.png"
-// import Portfolio from"./Projects/Portfolio.png"
-// import ToDOList from"./Projects/ToDOList.png"
-// import Weather from"./Projects/Weather.png"
-
-// const projects = [
-//     {
-//         title: "Project Title 1",
-//         description: "Brief description of your project. You can also add a link to the project.",
-//         imageUrl: Weather, // Replace with actual image URL
-//       },
-//       {
-//         title: "Project Title 2",
-//         description: "Brief description of your project. You can also add a link to the project.",
-//         imageUrl: ToDOList , // Replace with actual image URL
-//       },
-//       {
-//         title: "Project Title 2",
-//         description: "Brief description of your project. You can also add a link to the project.",
-//         imageUrl: Portfolio , // Replace with actual image URL
-//       },
-//       {
-//         title: "Project Title 2",
-//         description: "Brief description of your project. You can also add a link to the project.",
-//         imageUrl: Lottery, // Replace with actual image URL
-//       },
-//       {
-//         title: "Project Title 2",
-//         description: "Brief description of your project. You can also add a link to the project.",
-//         imageUrl: Joker, // Replace with actual image URL
-//       },
-//       {
-//         title: "Project Title 2",
-//         description: "Brief description of your project. You can also add a link to the project.",
-//         imageUrl: "https://via.placeholder.com/400x300", // Replace with actual image URL
-//       },
-//       // Add more projects as needed
-//   // Your projects array
-// ];
-
-// const Projects = () => {
-//   return (
-//     <section id="projects" className="p-10 bg-white shadow-md rounded-lg mb-10">
-//       <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Projects</h2>
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-//         {projects.map((project, index) => (
-//           <div key={index} className="border border-gray-300 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:scale-105">
-//             <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover" />
-//             <div className="p-6 bg-white">
-//               <h3 className="text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
-//               <p className="text-gray-600">{project.description}</p>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
 
 import React, { useState } from 'react';
 
@@ -73,28 +10,28 @@ import Weather from "./Projects/Weather.png";
 
 const projects = [
   {
-    title: "Project Title 1",
-    description: "Brief description of your project. You can also add a link to the project.",
+    title: "Weather App",
+    description: "A React Weather App fetches real-time weather data via APIs, displaying conditions and forecasts with a responsive design.",
     imageUrl: Weather,
   },
   {
-    title: "Project Title 2",
-    description: "Brief description of your project. You can also add a link to the project.",
+    title: "ToDO List",
+    description: "A ToDoList in React manages tasks using useState for adding, removing, and marking items. Tasks are rendered dynamically with forms or buttons for interaction.",
     imageUrl: ToDOList,
   },
   {
-    title: "Project Title 3",
-    description: "Brief description of your project. You can also add a link to the project.",
+    title: "My-Portfolio",
+    description: "A React portfolio uses components to display projects and skills interactively. It can be styled for responsiveness using libraries like Tailwind CSS.",
     imageUrl: Portfolio,
   },
   {
-    title: "Project Title 4",
-    description: "Brief description of your project. You can also add a link to the project.",
+    title: "Lottery-Game",
+    description: "A lottery game in React using useState for random number generation and user input to check for matches. Display results dynamically based on the draw.",
     imageUrl: Lottery,
   },
   {
-    title: "Project Title 5",
-    description: "Brief description of your project. You can also add a link to the project.",
+    title: "Joker-App",
+    description: "Joker-App in React uses an API to fetch random jokes and display them on the screen. The app updates with a new joke on user interaction, keeping the UI simple and engaging.",
     imageUrl: Joker,
   },
   {
