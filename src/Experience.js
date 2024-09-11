@@ -10,7 +10,7 @@ const Experience = () => {
           <p className="text-sm text-gray-500 mt-1">Jul 2024 - Aug 2024 · 2 mos</p>
           <p className="text-sm text-gray-500">Kota, Rajasthan, India · On-site</p>
           <p className="mt-4 text-gray-700">
-            Hired on the basis of doing work in React.js, Tailwind CSS, and Git, GitHub.
+            {/* Hired on the basis of doing work in React.js, Tailwind CSS, and Git, GitHub. */}
           </p>
           <p className="mt-2 text-gray-700">
             Skills: <span className="font-semibold">React.js</span>, <span className="font-semibold">Tailwind CSS</span>, <span className="font-semibold">Git</span>, <span className="font-semibold">GitHub</span>
@@ -23,7 +23,7 @@ const Experience = () => {
           <p className="text-sm text-gray-500 mt-1">Jul 2023 - Aug 2023 · 1 mos</p>
           <p className="text-sm text-gray-500">Jaipur, Rajasthan, India · Remote</p>
           <p className="mt-4 text-gray-700">
-            Hired on the basis of doing work in Python.
+            
           </p>
           <p className="mt-2 text-gray-700">
             Skills: <span className="font-semibold"> Python</span> 
