@@ -1,8 +1,7 @@
-import SkillRoadmap from './SkillRoadmap';
-
 
 import React from 'react';
 import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5, FaJsSquare, FaGitAlt, FaGithub } from 'react-icons/fa';
+import { SiTailwindcss } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -25,6 +24,10 @@ const Skills = () => {
         <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
           <FaReact className="text-blue-400 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">React</h3>
+        </div>
+        <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
+          <SiTailwindcss className="text-blue-500 text-4xl mb-4" /> {/* TailwindCSS Icon */}
+          <h3 className="text-xl font-semibold text-gray-800">Tailwind CSS</h3>
         </div>
         {/* <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
           <FaMagic className="text-green-500 text-4xl mb-4" />
