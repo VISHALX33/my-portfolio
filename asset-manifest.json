@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.96e18f5b.css",
-    "main.js": "/my-portfolio/static/js/main.e8c4bf50.js",
+    "main.js": "/my-portfolio/static/js/main.506f40bb.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/DooperCertificat.png": "/my-portfolio/static/media/DooperCertificat.753f0b4c82995baec157.png",
     "static/media/DataAnalyticsCertificate.png": "/my-portfolio/static/media/DataAnalyticsCertificate.a28cb155edf1dfedebd7.png",
@@ -15,6 +15,7 @@
     "static/media/Weather.png": "/my-portfolio/static/media/Weather.66cff237ae89aa92e6aa.png",
     "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/MyResume.pdf": "/my-portfolio/static/media/MyResume.d61bc63a0b3411a1498e.pdf",
     "static/media/Contectmeimage.png": "/my-portfolio/static/media/Contectmeimage.064020927ed73dea7680.png",
     "static/media/DsaCertificate.jpeg": "/my-portfolio/static/media/DsaCertificate.efeba39f4fa248d25a30.jpeg",
     "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
@@ -28,11 +29,11 @@
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/my-portfolio/index.html",
     "main.96e18f5b.css.map": "/my-portfolio/static/css/main.96e18f5b.css.map",
-    "main.e8c4bf50.js.map": "/my-portfolio/static/js/main.e8c4bf50.js.map",
+    "main.506f40bb.js.map": "/my-portfolio/static/js/main.506f40bb.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96e18f5b.css",
-    "static/js/main.e8c4bf50.js"
+    "static/js/main.506f40bb.js"
   ]
 }
