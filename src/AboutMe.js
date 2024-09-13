@@ -1,6 +1,7 @@
 
 import React from 'react';
 import aboutMeImage from "./assets/Aboutmeimage.png";
+import MyResume from "./assets/MyResume.pdf"
 
 const AboutMe = () => {
   return (
@@ -25,8 +26,8 @@ const AboutMe = () => {
             Looking ahead, I’m aiming to expand my expertise into Full Stack Development.
           </p>
           <a
-            href="/resume.pdf"
-            download="Your_Name_Resume.pdf"
+            href={MyResume}
+            download="Vishal's_Resume.pdf"
             className="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full text-lg font-medium shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105"
           >
             Download Resume
