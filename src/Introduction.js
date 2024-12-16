@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import ProfileImage from './assets/Profileimage.jpg'; // Import the image
 
 const Introduction = () => {
@@ -20,9 +20,11 @@ const Introduction = () => {
         </h1>
       </div>
       <p className="mt-4 text-lg text-gray-600 animate-fade-in delay-150">
-        Welcome to my portfolio. I'm a frontend developer based in India.
+        Welcome to my portfolio. I'm a MERN stack developer based in India.
       </p>
-      
+      <p className="mt-2 text-md text-gray-600 animate-fade-in delay-300">
+        Specializing in building scalable web applications using MongoDB, Express.js, React.js, and Node.js.
+      </p>
     </section>
   );
 };
