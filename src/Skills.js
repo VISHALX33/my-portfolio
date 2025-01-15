@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5, FaJsSquare, FaGitAlt, FaGithub } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5, FaJsSquare, FaGitAlt, FaGithub, FaFigma } from 'react-icons/fa';
+import { FaUniversalAccess } from 'react-icons/fa6';
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
 
 const Skills = () => {
@@ -48,6 +49,11 @@ const Skills = () => {
           <FaGithub className="text-gray-800 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">GitHub</h3>
         </div>
+        <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
+          <FaFigma className="text-gray-800 text-4xl mb-4" />
+          <h3 className="text-xl font-semibold text-gray-800">Figma</h3>
+        </div>
+        
       </div>
     </section>
   );
