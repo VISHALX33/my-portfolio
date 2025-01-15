@@ -27,7 +27,7 @@ const AboutMe = () => {
           </p>
           <a
             href={MyResume}
-            download="Vishal's_Resume.pdf"
+            download="Resume.pdf"
             className="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full text-lg font-medium shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105"
           >
             Download Resume
