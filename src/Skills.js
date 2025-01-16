@@ -29,10 +29,7 @@ const Skills = () => {
           <SiTailwindcss className="text-blue-500 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">Tailwind CSS</h3>
         </div>
-        <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
-          <SiMongodb className="text-green-600 text-4xl mb-4" />
-          <h3 className="text-xl font-semibold text-gray-800">MongoDB</h3>
-        </div>
+        
         <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
           <SiExpress className="text-gray-800 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">Express.js</h3>
@@ -40,6 +37,10 @@ const Skills = () => {
         <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
           <FaNodeJs className="text-green-500 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">Node.js</h3>
+        </div>
+        <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
+          <SiMongodb className="text-green-600 text-4xl mb-4" />
+          <h3 className="text-xl font-semibold text-gray-800">MongoDB</h3>
         </div>
         <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
           <FaGitAlt className="text-red-600 text-4xl mb-4" />
