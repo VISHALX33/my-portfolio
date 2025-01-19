@@ -1,7 +1,7 @@
 
 import React from 'react';
 import aboutMeImage from "./assets/Aboutmeimage.png";
-import MyResume from "./assets/MyResume.pdf"
+import MyResume from "./assets/MyResume1.pdf"
 
 const AboutMe = () => {
   return (

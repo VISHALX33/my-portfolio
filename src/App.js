@@ -14,7 +14,7 @@ import SkillRoadmap from './SkillRoadmap';
 function App() {
   return (
     <div className="App bg-gray-100 min-h-screen">
-      <Navbar />
+      <Navbar/>
       <main className="pt-20">
         <Introduction />
         <AboutMe />
