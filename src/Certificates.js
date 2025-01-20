@@ -8,6 +8,8 @@ import DsaCertificate from "./Certificate/DsaCertificate.jpeg";
 import HtmlCertificate from "./Certificate/HtmlCertificate.png";
 import MongoDbCertificate from "./Certificate/MongoDbCertificate.png";
 import PythonCertificate from "./Certificate/PythonCertificate.png";
+import LinuxCertificate from "./Certificate/LinuxCertificate.png";
+
 
 const certificates = [
   {
@@ -45,6 +47,11 @@ const certificates = [
     description: "Successfully completed an internship program where they acquired practical skills in Python programming, including developing and debugging Python applications.",
     imageUrl: PythonCertificate,
   },
+  {
+    title: "Linux",
+    description: "Successfully completed the Linux certification. This certification highlights expertise in Linux standards and best practices.",
+    imageUrl: LinuxCertificate,
+  },
   // Add more certificates as needed
 ];
 
@@ -62,7 +69,7 @@ const Certificates = () => {
   return (
     <section id="certificates" className="p-10 bg-white shadow-md rounded-lg mb-10">
       <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Certificates</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
         {certificates.map((certificate, index) => (
           <div
             key={index}

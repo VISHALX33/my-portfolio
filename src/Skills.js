@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5, FaJsSquare, FaGitAlt, FaGithub, FaFigma } from 'react-icons/fa';
-import { FaUniversalAccess } from 'react-icons/fa6';
+import { FaSquareLastfm, FaUniversalAccess } from 'react-icons/fa6';
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
+import { SiMysql } from 'react-icons/si';
+
 
 const Skills = () => {
   return (
@@ -29,7 +31,7 @@ const Skills = () => {
           <SiTailwindcss className="text-blue-500 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">Tailwind CSS</h3>
         </div>
-        
+
         <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
           <SiExpress className="text-gray-800 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">Express.js</h3>
@@ -54,7 +56,10 @@ const Skills = () => {
           <FaFigma className="text-gray-800 text-4xl mb-4" />
           <h3 className="text-xl font-semibold text-gray-800">Figma</h3>
         </div>
-        
+        <div className="flex flex-col items-center text-center p-4 bg-gray-50 rounded-lg shadow-md">
+          <SiMysql className="text-blue-600 text-4xl mb-4" />
+          <h3 className="text-xl font-semibold text-gray-800">MySQL</h3>
+        </div>
       </div>
     </section>
   );

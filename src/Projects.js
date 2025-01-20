@@ -2,22 +2,25 @@
 
 import React, { useState } from 'react';
 
-import Joker from "./Projects/Joker.png";
-import Lottery from "./Projects/Lottery.png";
+import Cricketgems from "./Projects/Cricketgems.png";
+import Realestate from "./Projects/Realestate.png";
+import Parikramapaths from "./Projects/Parikramapaths.png";
 import Portfolio from "./Projects/Portfolio.png";
 import ToDOList from "./Projects/ToDOList.png";
 import Weather from "./Projects/Weather.png";
 
 const projects = [
+  
   {
-    title: "Weather App",
-    description: "A React Weather App fetches real-time weather data via APIs, displaying conditions and forecasts with a responsive design.",
-    imageUrl: Weather,
+    title: "Real-estate",
+    description: "Designed and developed a modern real estate web application focused on seamless property browsing, intuitive navigation, and responsive design.",
+    imageUrl: Realestate,
   },
+  
   {
-    title: "ToDO List",
-    description: "A ToDoList in React manages tasks using useState for adding, removing, and marking items. Tasks are rendered dynamically with forms or buttons for interaction.",
-    imageUrl: ToDOList,
+    title: "Parikrama-paths",
+    description: "Parikrama Paths simplifies your spiritual journeys with detailed insights and guidance. Discover divine trails and traditions effortlessly with us!",
+    imageUrl: Parikramapaths,
   },
   {
     title: "My-Portfolio",
@@ -25,19 +28,19 @@ const projects = [
     imageUrl: Portfolio,
   },
   {
-    title: "Lottery-Game",
-    description: "A lottery game in React using useState for random number generation and user input to check for matches. Display results dynamically based on the draw.",
-    imageUrl: Lottery,
+    title: "Cricket-gems",
+    description: "Cricket Gems brings the excitement of cricket to life with key insights and highlights. Explore the essence of the game like never before!",
+    imageUrl: Cricketgems,
   },
   {
-    title: "Joker-App",
-    description: "Joker-App in React uses an API to fetch random jokes and display them on the screen. The app updates with a new joke on user interaction, keeping the UI simple and engaging.",
-    imageUrl: Joker,
+    title: "Weather App",
+    description: "A React Weather App fetches real-time weather data via APIs, displaying conditions and forecasts with a responsive design.",
+    imageUrl: Weather,
   },
   {
-    title: "Project Title 6",
-    description: "Brief description of your project. You can also add a link to the project.",
-    imageUrl: "https://via.placeholder.com/400x300",
+    title: "ToDO List",
+    description: "A ToDoList in React manages tasks using useState for adding, removing, and marking items.",
+    imageUrl: ToDOList,
   },
   // Add more projects as needed
 ];
@@ -56,7 +59,7 @@ const Projects = () => {
   return (
     <section id="projects" className="p-10 bg-white shadow-md rounded-lg mb-10">
       <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
         {projects.map((project, index) => (
           <div
             key={index}
