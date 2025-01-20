@@ -1,5 +1,4 @@
 
-
 import React, { useState } from 'react';
 
 import Cricketgems from "./Projects/Cricketgems.png";
@@ -10,37 +9,46 @@ import ToDOList from "./Projects/ToDOList.png";
 import Weather from "./Projects/Weather.png";
 
 const projects = [
-  
   {
     title: "Real-estate",
     description: "Designed and developed a modern real estate web application focused on seamless property browsing, intuitive navigation, and responsive design.",
     imageUrl: Realestate,
+    link: "https://real-estate-mu-drab.vercel.app/"
   },
-  
   {
     title: "Parikrama-paths",
     description: "Parikrama Paths simplifies your spiritual journeys with detailed insights and guidance. Discover divine trails and traditions effortlessly with us!",
     imageUrl: Parikramapaths,
+    link: "https://parikrama-pathss.vercel.app/"
+
   },
   {
     title: "My-Portfolio",
     description: "A React portfolio uses components to display projects and skills interactively. It can be styled for responsiveness using libraries like Tailwind CSS.",
     imageUrl: Portfolio,
+    link: "https://vishalx33.github.io/my-portfolio"
+
   },
   {
     title: "Cricket-gems",
     description: "Cricket Gems brings the excitement of cricket to life with key insights and highlights. Explore the essence of the game like never before!",
     imageUrl: Cricketgems,
+    link: "https://cricket-gems.vercel.app/"
+
   },
   {
     title: "Weather App",
     description: "A React Weather App fetches real-time weather data via APIs, displaying conditions and forecasts with a responsive design.",
     imageUrl: Weather,
+    link: ""
+
   },
   {
     title: "ToDO List",
     description: "A ToDoList in React manages tasks using useState for adding, removing, and marking items.",
     imageUrl: ToDOList,
+    link: ""
+
   },
   // Add more projects as needed
 ];
@@ -59,7 +67,7 @@ const Projects = () => {
   return (
     <section id="projects" className="p-10 bg-white shadow-md rounded-lg mb-10">
       <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -106,6 +114,17 @@ const Projects = () => {
               />
               <h3 className="text-xl font-semibold text-gray-800 mb-2">{selectedProject.title}</h3>
               <p className="text-gray-600 text-center">{selectedProject.description}</p>
+              {selectedProject.link && (
+                <a
+                href={selectedProject.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 mt-4 font-semibold hover:text-blue-800 hover:underline transition-all duration-300 ease-in-out p-2 rounded-lg"
+              >
+                Visit
+              </a>
+              
+              )}
             </div>
           </div>
         </div>
