@@ -7,8 +7,16 @@ import Parikramapaths from "./Projects/Parikramapaths.png";
 import Portfolio from "./Projects/Portfolio.png";
 import ToDOList from "./Projects/ToDOList.png";
 import Weather from "./Projects/Weather.png";
+import elitecrew from "./Projects/elitecrew.png";                   
 
 const projects = [
+  {
+    title: "Elite-Crew",
+    description: "Built on MongoDB for flexible data management, Express.js for robust APIs, React for dynamic frontends, and Node.js for scalable server-side operations",
+    imageUrl: elitecrew,
+    link: "https://elite-crew.vercel.app/"
+  },
+
   {
     title: "Real-estate",
     description: "Designed and developed a modern real estate web application focused on seamless property browsing, intuitive navigation, and responsive design.",
